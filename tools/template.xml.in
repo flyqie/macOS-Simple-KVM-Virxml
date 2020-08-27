@@ -1,8 +1,8 @@
 <domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
   <name>macOS-Simple-KVM</name>
   <uuid>d06d502a-904a-4b34-847d-debf1a3d76c7</uuid>
-  <memory unit='KiB'>2097152</memory>
-  <currentMemory unit='KiB'>2097152</currentMemory>
+  <memory unit='GiB'>4</memory>
+  <currentMemory unit='GiB'>4</currentMemory>
   <vcpu placement='static'>4</vcpu>
   <os>
     <type arch='x86_64' machine='MACHINE'>hvm</type>
